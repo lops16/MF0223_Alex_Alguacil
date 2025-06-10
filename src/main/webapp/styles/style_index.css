@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+h2{
+  color: var(--colorPrincipal);
+  width: 90%;
+  padding-left: 20px;
+  font-size: var(--pesoSubTitulo);
+}
+.servicios-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.servicio-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  padding: 10px 15px;
+  border: 1px solid var(--colorPrincipal);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.servicio-item svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--colorPrincipal);
+}
+
+.servicio-nombre {
+  margin-top: 10px;
+  font-size: 16px;
+  color: var(--texto);
+}

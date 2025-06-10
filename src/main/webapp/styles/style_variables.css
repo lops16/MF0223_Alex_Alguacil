@@ -1,0 +1,21 @@
+:root {
+  /* colores */
+  --colorPrincipalFondo: #3B4B49;
+  --colorPrincipalClaro: #1AD7BE;
+  --colorPrincipal: #16BAA4;
+  --colorPrincipalOscuro: #0F80712;
+  --fondoClaro: #D9D9D9;
+  --fondoOscuro: #232D2C;
+  --subtitulos: #151515;
+  --texto: #2c2c2c;
+  --negrita: bold;
+  /* Fuentes */
+  --fuenteGeneral: sans-serif;
+  --fuenteDetalle: serif;
+  /* Tamaños textos*/
+  --tamañoTitulo: 30px;
+  --pesoTitulo: 700;
+  --tamañoSubTitulo: 30px;
+  --pesoSubTitulo: 30px;
+  --tamañoTexto: 15px;
+}
